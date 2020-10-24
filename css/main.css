@@ -1,13 +1,16 @@
 .myCustomDrop {
   width: 100%;
   max-width: 400px;
-  min-width: 300px; }
+  min-width: 300px;
+  position: relative; }
   .myCustomDrop .dropDownText {
     padding: 8px 16px;
     border: 1px solid rgba(160, 158, 158, 0.5);
     border-radius: 5px; }
   .myCustomDrop .dropMain {
     display: none;
+    position: absolute;
+    width: 100%;
     list-style-type: none;
     margin: 0px;
     padding-left: 0px;

@@ -5,6 +5,7 @@ $gray:rgba(160, 158, 158,.5);
     width: 100%;
     max-width: 400px;
     min-width: 300px;
+    position: relative;
     .dropDownText{
         padding: 8px 16px;
         border:1px solid $gray;
@@ -12,6 +13,8 @@ $gray:rgba(160, 158, 158,.5);
     }
     .dropMain{
         display: none;
+        position: absolute;
+        width: 100%;
         list-style-type: none;
         margin: 0px;
         padding-left: 0px;
