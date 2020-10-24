@@ -1,0 +1,28 @@
+.myCustomDrop {
+  width: 100%;
+  max-width: 400px;
+  min-width: 300px; }
+  .myCustomDrop .dropDownText {
+    padding: 8px 16px;
+    border: 1px solid rgba(160, 158, 158, 0.5);
+    border-radius: 5px; }
+  .myCustomDrop .dropMain {
+    display: none;
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 0px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.25);
+    box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.25); }
+    .myCustomDrop .dropMain li a {
+      color: #292929;
+      text-decoration: none;
+      padding: 8px 16px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .myCustomDrop .dropMain li a:hover {
+        background-color: #0a78a3;
+        color: white; }
+  .myCustomDrop:hover .dropMain {
+    display: block; }
